@@ -18,19 +18,19 @@ The project implementation had the following requirements:
 
 The project was divided into three sections that are reflected by the number of Sub VIs implemented.
 
-### Button Event Handling and Visuals
+### 1. Button Event Handling and Visuals
 
 The Main VI implements the buttons and the visual elements for the application. The button clicks are monitored using an event handling case that captures the value changes of the buttons. Using that information, the counter value is either incremented or decremented. The value is passed on to the next iteration of the loop using shift registers. The counter value is then processed at the start of the interation in the Calculation VI and the Filesave VI. 
 
 ![Main VI](assets/main.png)
 
-### Counter Calculations
+### 2. Counter Calculations
 
 The calculations on the counter are necessary to make sure the counter is not negative. If that is a case, then a dialog message is generated and the counter is reverted back to 0. The temperature reading must be 29 more than the counter reading which is also calcualted in this VI.
 
 ![Main VI](assets/calculation.png)
 
-### File Saving
+### 3. File Saving
 
 The Filesave VI implemented the funcionality to save the counter and the calculated temperature values as a TDMS file.
 
