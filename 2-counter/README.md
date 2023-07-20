@@ -1,6 +1,8 @@
 # Counter with Event Handling
 
-This project implements a counter application using button value change event handling in LabVIEW. The following GIF shows the working of the application. Please read on for the details of the project.
+This project implements a counter application using button value change event handling in LabVIEW. The following GIF shows the working of the application. The project output can be replicated by running the "main.vi".
+
+Please read on for the details of the project.
 
 ![Main GIF](assets/counter_demo.gif)
 
